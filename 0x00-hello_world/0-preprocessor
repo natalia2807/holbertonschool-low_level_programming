@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -finput-charset=UTF-8 -o c
+gcc $CFILE -finput-charset=UTF-8 -fexec-charset=UTF-8 -o c
