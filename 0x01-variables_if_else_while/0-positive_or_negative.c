@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <time.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  *
@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-  int n=randon();
+  int n=rand();
 
   if (n>0){
     printf("es positivo\n");
