@@ -7,18 +7,14 @@
  */
 int main(void)
 {
-  int n;
+  int n=randon();
 
   if (n>0){
     printf("es positivo\n");
-  }
-
-    
-    else if (0){
+  } else if (n==0){
       printf("es cero\n");
-    }
-
-      if (n<0){
+    }else{
 	printf("es negativo\n");
-	return (0);     }
+      }
+      return (0);     
 }
