@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (sucess)
- */
-int main(int argc, char *argv[])
+* main - Entry point
+*
+* Return: Always 0 (sucess)
+*/
+int main(void)
 {
 printf("Size of a char: %zd byte(s)\n", sizeof(char));
 printf("Size of an int: %zd byte(s)\n", sizeof(int));
