@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-  int n=rand();
+  int n=(rand()%98+1);
 
   if (n>0){
-    printf("%d is positive\n",n);
+    printf("%d is positive\n",98);
   } else if (n==0){
     printf("%d is zero\n",n);
     }else{
