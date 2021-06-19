@@ -8,8 +8,9 @@
  */
 int main(void)
 {
+int n=0;
 srand(time(0));
-int n=(rand()%-98);
+n=(rand()%-98);
 if (n>0){
 printf("%d is positive\n",98);
 } else if (n==0){
