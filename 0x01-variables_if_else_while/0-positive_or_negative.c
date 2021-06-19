@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-int n=0;
-srand(time(0));
-n=(rand()%-98);
+int n;
+ printf("enter the number n:");
+ scanf(%d, &n);
 if (n>0){
-printf("%d is positive\n",98);
+printf("%d is positive\n",n);
 } else if (n==0){
 printf("%d is zero\n",n);
 }else{
