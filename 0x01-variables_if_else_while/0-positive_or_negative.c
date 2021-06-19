@@ -12,7 +12,7 @@ int n=0;
  printf("enter the number n:");
  scanf("%d", %n);
  srand(time(0));
- n=(rand()%n);
+ n=(rand()%-98);
 if (n>0){
 printf("%d is positive\n",n);
 } else if (n==0){
