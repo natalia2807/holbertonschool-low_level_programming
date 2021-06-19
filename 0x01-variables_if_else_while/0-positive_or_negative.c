@@ -10,7 +10,7 @@ int main(void)
 {
 int n=0;
  printf("enter the number n:");
- scanf("%d", %n);
+ scanf("%d", &n);
  srand(time(0));
  n=(rand()%-98);
 if (n>0){
