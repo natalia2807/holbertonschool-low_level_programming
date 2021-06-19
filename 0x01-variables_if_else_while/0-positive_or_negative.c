@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-int n=;
+int n=0;
  printf("enter the number n:");
  scanf("%d", %n);
  srand(time(0));
