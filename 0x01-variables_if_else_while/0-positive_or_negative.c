@@ -11,7 +11,7 @@ int main(void)
 int n;
  printf("enter the number n:");
  srand(time(NULL));
- scanf("%d", rand());
+ printf("%d", rand());
  printf("%d", RAND_MAX);
 if (n>0){
 printf("%d is positive\n",n);
