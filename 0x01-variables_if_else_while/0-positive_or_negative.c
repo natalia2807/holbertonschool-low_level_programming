@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-  int n=(rand()%98+1);
+  int n=(rand()%(98-98)+1);
 
   if (n>0){
     printf("%d is positive\n",98);
