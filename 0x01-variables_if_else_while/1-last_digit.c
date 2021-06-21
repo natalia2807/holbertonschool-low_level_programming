@@ -23,7 +23,7 @@ int main (void)
     {
     printf("last digit of %i is %d and is greater than 5\n", n, p);
     }
-  else if (p == n)
+  else if (p == 0)
     {
       printf("last digit of %i is %d and is 0\n", n, p);
     }
