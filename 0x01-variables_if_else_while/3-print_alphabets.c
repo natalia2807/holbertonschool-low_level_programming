@@ -1,15 +1,14 @@
 #include <stdio.h>
 int main(void)
 {
-  char A[25] = "abcdefghijklmnñopqrstuvwxyz";
-  char ch = 'G';
-  for (int i = 0; i< 25; i++)
+  char A[52] = "abcdefghijkmnlopqrstuvwxyzABCDEFGHIJQLMNOPQRSTUVWXYZ";
+  
+  int i=0;
+  while (i< 52)
     {
-      putchar(A[I]);
+      putchar(A[i]);
+      i++;
     }
-  for (int i = 0; i < 25; i++);
-  {
-    putchar (toupper(A[i]));
-  }
+  
   return (0);
 }
