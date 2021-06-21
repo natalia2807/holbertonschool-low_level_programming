@@ -13,6 +13,6 @@ while (i < 11)
 putchar(A[i]+'0');
 i++;
 }
-putchar('n');
+putchar('\n');
 return (0);
 }
