@@ -11,7 +11,7 @@ int i = 0;
 while (i < 11)
 {
 putchar(A[i]);
-putchar("\n")
+ putchar("\n");
 i++;
 }
 return (0);
