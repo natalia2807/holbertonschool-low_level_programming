@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*betty style doc for function maind goes there*/
+/*betty style doc for function main goes there*/
 /**
  * maint- Entry point
  *
