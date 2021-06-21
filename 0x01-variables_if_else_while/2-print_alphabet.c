@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-char A[27] = " abcdefghijklmnopqrstuvwxyz";
+char A[27] = "abcdefghijklmnopqrstuvwxyz\n";
 int i = 0;
 while (i < 27)
 {
