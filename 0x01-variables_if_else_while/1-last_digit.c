@@ -3,7 +3,7 @@
 #include <time.h>
 /*betty style doc for function main goes there*/
 /**
- * maint- Entry point
+ * main - Entry point
  *
  *Return: Always o (sucess)
  */
