@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-char A[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char A[53] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ";
 int i = 0;
-while (i < 52)
+while (i < 53)
 {
 putchar(A[i]);
 i++;
