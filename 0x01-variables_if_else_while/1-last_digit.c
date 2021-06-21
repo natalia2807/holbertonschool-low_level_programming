@@ -8,7 +8,7 @@
  *Return: Always o (sucess)
  */
 
-int maind (void)
+int main (void)
 {
   int n;
   int p;
