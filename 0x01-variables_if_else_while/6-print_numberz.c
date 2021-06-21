@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-int A[11] = "0123456789\n";
+string A[11] = "0123456789\n";
 int i = 0;
 while (i < 11)
 {
