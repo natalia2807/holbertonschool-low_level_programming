@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <ctype.h>
+
 
 #include "holberton.h"
 
@@ -8,16 +7,13 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int _islower(int c)
 {
-    int r;
-test_islower('H');
-    r = islower('H');
-    putchar(r + '0');
-    r = islower('o');
-    putchar(r + '0');
-    r = islower(108);
-    putchar(r + '0');
-    putchar('\n');
+ if(c>= 'a' && c<=<)
+ {
+     return (1);
+ 
+else 
     return (0);
+ }
 }
