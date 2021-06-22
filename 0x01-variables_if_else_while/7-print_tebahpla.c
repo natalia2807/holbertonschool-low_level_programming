@@ -6,8 +6,8 @@
 */
 int main(void)
 {
-char A[25] = "abcdefghijklmnopqrstuvwxyz";
-int i = 24;
+char A[26] = "abcdefghijklmnopqrstuvwxyz";
+int i = 25;
 while (i > 0)
 {
 putchar(A[i]);
