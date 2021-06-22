@@ -6,6 +6,6 @@
 */
 int main(void)
 {
-print_alphabet(holberton);
+printf("holberton");
 return (0);
 }
