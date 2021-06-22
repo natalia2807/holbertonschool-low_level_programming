@@ -7,10 +7,16 @@
 int main(void)
 {
 int i = 1;
+ int suma = 2;
 while (i < 90)
 {
 putchar((i/10)+'0');
 putchar((i%10)+'0');
+ if(i%10 == 9){
+   i = i+suma;
+   suma++;
+
+ }
 i++;
 putchar(',');
 putchar(' ');
