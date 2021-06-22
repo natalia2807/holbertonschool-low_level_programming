@@ -1,4 +1,4 @@
-// Print numbers from 1 to 5
+
 #include <stdio.h>
 
 /**
@@ -7,12 +7,14 @@
 * Return: Always 0.
 */
 int main(void)
+print_alphabet();
 {
 char n;
 n = 'a';
-print_alphabet();
+
 while(n <= 'z')
 {
+// this funtion print the alphabet
 putchar(n);
 n++;
 }
