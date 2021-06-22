@@ -6,7 +6,7 @@
 *
 * Return: Always 0.
 */
-int main(void)
+void  print_alphabet(void)
 
 {
 char n;
@@ -15,9 +15,9 @@ n = 'a';
 while(n <= 'z')
 {
 
-putchar(n);
+_putchar(n);
 n++;
 }
-putchar('\n');
-return (0);
+_putchar('\n');
+
  }
