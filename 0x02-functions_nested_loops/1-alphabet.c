@@ -1,19 +1,18 @@
 #include <stdio.h>
-
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
- void print_alphabet(void)
- {
- char a;
- a=a;
- while(a <= 'z')
- {
- _putchar(a);
- a++;
- }
- _putchar('n');
- return (0);
+* main - check the code for Holberton School students.
+*
+* Return: Always 0.
+*/
+void print_alphabet(void)
+{
+char n;
+n = 'a';
+while(n <= 'z')
+{
+putchar(n);
+n++;
+}
+putchar('\n');
+return (0);
  }
