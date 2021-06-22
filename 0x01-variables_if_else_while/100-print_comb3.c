@@ -17,11 +17,12 @@ putchar((i%10)+'0');
    suma++;
 
  }
-i++;
- if(i!=90);{
+
+ if(i!=89);{
 putchar(',');
 putchar(' ');
  }
+ i++;
 }
 putchar('\n');
 return (0);
