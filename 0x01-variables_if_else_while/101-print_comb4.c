@@ -9,25 +9,32 @@
  */
 int main(void)
 {
-
-
-	for (int n1 = 0; n2 < 8; n3++)
+int n1 = 0;
+int n2 =0;
+ int n3 =0;
+	while ( n1 < 8)
 	{
-		for (int n1 = n2 + 1; n2 < 9; n2++)
+         n2 = n1 + 1;
+		while ( n2 < 9)
 		{
-			for (int n3 = n2 + 1; n3 < 10; n3++)
+             n3 = n2 + 1;
+			while ( n3 < 10 )
 			{
 				putchar((n1 % 10) + '0');
 				putchar((n2 % 10) + '0');
 				putchar((n3 % 10) + '0');
 
-				if (n1 == 7 && n2 == 8 && n3 == 9)
-					continue;
+				if (n1 == 7 && n2 == 8 && n3 == 9){
+					break;
+				}
 				
 				putchar(',');
-				putchar(' ');
+				    putchar(' ');
+                n3++;
 			}
+            n2++;
 		}
+         n1++;
 	}
 
 	putchar('\n');
