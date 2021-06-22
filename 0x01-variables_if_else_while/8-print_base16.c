@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-char A[17] = "0123456789abcdef";
+char A[16] = "0123456789abcdef";
 int i = 0;
-while (i < 17)
+while (i < 16)
 {
 putchar(A[i]);
 i++;
