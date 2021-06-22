@@ -6,11 +6,11 @@
 */
 int main(void)
 {
-char A[10] = "0123456789";
+int A[10] = {0,1,2,3,4,5,6,7,8,9};
 int i = 0;
 while (i < 10)
 {
-putchar(A[i]);
+putchar(A[i]+ '0');
 putchar(',');
 putchar(' ');
 i++;
