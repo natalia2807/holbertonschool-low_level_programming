@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main - print_alphabet  - this funtion print the alphabet
+* main - Entry point
 *
-* Return: Always 0.
+* Return: Always 0 (sucess)
 */
 void  print_alphabet_x10(void)
 {
