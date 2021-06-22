@@ -18,7 +18,7 @@ putchar((i%10)+'0');
 
  }
 
- if(i!=89){
+ if(i!=99){
 putchar(',');
 putchar(' ');
  }
