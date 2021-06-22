@@ -11,7 +11,7 @@
 int main(void)
 {
     int r;
-
+test_islower('H');
     r = islower('H');
     putchar(r + '0');
     r = islower('o');
