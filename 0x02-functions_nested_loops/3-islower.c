@@ -1,6 +1,5 @@
 
 #include "holberton.h"
-
 /**
  * main - check the code for Holberton School students.
  *
@@ -8,11 +7,10 @@
  */
 int _islower(int n)
 {
-
 if(n >= 'a' && n <='z')
-{
+
      return (1);
  
-}else 
+else 
     return (0);
 }
