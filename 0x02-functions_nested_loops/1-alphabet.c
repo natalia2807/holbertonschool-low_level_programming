@@ -7,14 +7,14 @@
 * Return: Always 0.
 */
 int main(void)
-print_alphabet();
+
 {
 char n;
 n = 'a';
 
 while(n <= 'z')
 {
-// this funtion print the alphabet
+
 putchar(n);
 n++;
 }
