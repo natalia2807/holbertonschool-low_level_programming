@@ -6,13 +6,14 @@
 */
 int main(void)
 {
-char A[10] = "0,1,2,3,4,5,6,7,8,9";
+char A[10] = "0123456789";
 int i = 0;
 while (i < 10)
 {
 putchar(A[i]);
+putchar(',');
+putchar(' ');
 i++;
 }
-putchar('\n');
 return (0);
 }
