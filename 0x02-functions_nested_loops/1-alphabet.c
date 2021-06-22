@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* 1-alphabet.c - a funtion print the alphabet
+* print_alphabet - prints the alphabet
 *
-* Return: Always 0.
+* Return: Always 0 (secess)
 */
 void  print_alphabet(void)
 {
