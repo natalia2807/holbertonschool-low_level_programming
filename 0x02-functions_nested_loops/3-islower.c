@@ -6,7 +6,8 @@
  *
  * Return: Always 0.
  */
-int _islower(int n){
+int _islower(int n)
+{
 
 if(n >= 'a' && n <='z')
 {
