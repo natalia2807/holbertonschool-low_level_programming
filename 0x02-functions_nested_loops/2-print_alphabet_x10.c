@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Entry point
+* main - found for function print_alphabet_x10
 *
 * Return: Always 0 (sucess)
 */
