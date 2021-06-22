@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-#include "_putchar.h"
+
 
 
 /**
@@ -17,9 +17,9 @@ n = 'a';
 while(n <= 'z')
 {
 
-_putchar(n);
+putchar(n);
 n++;
 }
-_putchar('\n');
+putchar('\n');
 
  }
