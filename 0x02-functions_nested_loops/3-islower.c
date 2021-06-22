@@ -7,13 +7,13 @@
  *
  * Return: Always 0.
  */
-int _islower(int c)
+int _islower(int n)
 {
- if(c>= 'a' && c<=<)
- {
+ if(n>= 'a' && n<=<)
+ 
      return (1);
  
 else 
     return (0);
- }
+ 
 }
