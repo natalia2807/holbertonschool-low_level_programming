@@ -1,5 +1,4 @@
 
-
 #include "holberton.h"
 
 /**
@@ -7,7 +6,7 @@
  *
  * Return: Always 0.
  */
-int _islower(int n)
+int _islower(int n){
 
 if(n >= 'a' && n <='z')
 {
@@ -15,3 +14,4 @@ if(n >= 'a' && n <='z')
  
 }else 
     return (0);
+}
