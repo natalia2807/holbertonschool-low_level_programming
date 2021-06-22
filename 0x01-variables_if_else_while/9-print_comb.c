@@ -11,7 +11,7 @@ int i = 0;
 while (i < 10)
 {
 putchar(A[i]+ '0');
-if (A[i]!='9')
+if (A[i]!=9)
 {
 putchar(',');
 putchar(' ');
