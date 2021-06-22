@@ -1,6 +1,8 @@
-xx#include <stdio.h>
+// Print numbers from 1 to 5
+#include <stdio.h>
+
 /**
-* main - check the code for Holberton School students.
+* main - print_alphabet  - this funtion print the alphabet
 *
 * Return: Always 0.
 */
@@ -8,6 +10,7 @@ int main(void)
 {
 char n;
 n = 'a';
+print_alphabet();
 while(n <= 'z')
 {
 putchar(n);
