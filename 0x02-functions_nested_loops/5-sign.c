@@ -1,8 +1,8 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-*_isalpha - a function that checks for lowercase character
-*@c: letter for variable
+*_sign - a function that checks for lowercase character
+*@n: letter for variable
 *
 * Return: Always 0 (sucess)
 */
@@ -14,7 +14,7 @@ if (n > 0)
 _putchar('+');
 return (1);
 }
-else if(n == 0)
+else if (n == 0)
 {
 _putchar('0');
 return (0);
