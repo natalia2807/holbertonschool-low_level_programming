@@ -8,7 +8,8 @@
  */
 int _islower(int n)
 {
-	if (n+'0' >= 'a' && n+'0' <= 'z')
+    char m=n+'0';
+	if (m+ >= 'a' && m <= 'z')
 		return (1);
 	else
 		return (0);
