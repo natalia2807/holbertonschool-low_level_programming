@@ -7,7 +7,7 @@
  */
 int _isalpha(int c)
 {
-    char m=n;
+    char m=c;
 	if (m >= 'a' && m <= 'z'){
 		return (1);
     }else{
