@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
 *_isalpha - a function that checks for lowercase character
 *@c: letter for variable
