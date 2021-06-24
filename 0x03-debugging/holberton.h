@@ -1,3 +1,7 @@
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
+
+#include <stdio.h>
 void  print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int n);
@@ -8,3 +12,4 @@ int print_sign(int n);
 int _abs(int);
 void positive_or_negative(int i); 
 int largest_number(int a, int b, int c);
+#endif /* HOLBERTON_H */
