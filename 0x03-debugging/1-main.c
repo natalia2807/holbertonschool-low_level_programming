@@ -2,7 +2,8 @@
 
 /**
 * main - causes an infinite loop
-* Return: 0
+*@i: i is a number
+* Return: Always 0 (sucess)
 */
 
 int main(void)
