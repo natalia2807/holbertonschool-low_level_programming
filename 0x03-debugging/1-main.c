@@ -2,7 +2,7 @@
 
 /**
 * main - causes an infinite loop
-*@i: is a number
+*
 * Return: Always 0 (sucess)
 */
 
