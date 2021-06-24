@@ -7,3 +7,4 @@ int _putchar(char c);
 int print_sign(int n);
 int _abs(int);
 void positive_or_negative(int i); 
+int largest_number(int a, int b, int c);
