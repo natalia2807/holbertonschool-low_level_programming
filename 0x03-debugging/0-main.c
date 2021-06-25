@@ -10,5 +10,6 @@ int i;
 i = 0;
 /*putchar(i);*/
 positive_or_negative(i);
+
 return (0);
 }
