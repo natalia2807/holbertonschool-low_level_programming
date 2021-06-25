@@ -8,12 +8,12 @@
  */
 int _isupper(int c)
 {
-char b;
-if (b = 'A'; b<='z')
+
+if (c = 'A'; c<='z')
 {
-putchar(n);
+putchar(c);
 return (1);
 }
 else 
 {
-return (0); 
+return (0);  
