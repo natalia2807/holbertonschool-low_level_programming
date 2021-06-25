@@ -7,8 +7,8 @@
 int main(void)
 {
 int i;
-i = 98;
-putchar(i);
+i = 0;
+/*putchar(i);*/
 positive_or_negative(i);
 return (0);
 }
