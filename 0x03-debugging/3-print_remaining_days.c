@@ -24,7 +24,8 @@ printf("Remaining days: %d\n", 366 - day);
 }
 else
 {
-if (year % 4 == 0)
+printf("Day of the year: %d\n", day);
+if( year % 4 == 0)
 {
 printf("Remaining days: %d\n", 366 - day);
 }
@@ -32,7 +33,6 @@ else
 {
 printf("Remaining days: %d\n", 365 - day);
 }
-printf("Remaining days: %d\n", 365 - day);
 
 }
 }
