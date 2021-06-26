@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <stdio.h>
 
 /**
  * main - check the code for Holberton School students.
@@ -9,9 +9,14 @@
 int _isupper(int c)
 {
 
-if (c = 'A'; c<='z')
+if (c >= 'A'; c<='z')
+{
 
 return (1);
-else 
+}
+else
+   
     return (0);
-{
+
+
+}
