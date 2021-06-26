@@ -8,9 +8,12 @@
  */
 void print_numbers(void)
 {
-int num;
-if (num >= '0' && num>= '9')
-{
-putchar (num);
-}
+	int n = 0;
+
+	if (n < 10)
+	{
+		_putchar(n + '0');
+		
+	}
+	_putchar('\n');
 }
