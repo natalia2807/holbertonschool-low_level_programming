@@ -17,3 +17,4 @@ void print_remaining_days(int month, int day, int year);
 #endif /* HOLBERTON_H */
 int _isupper(int c);
 int _isdigit(int c);
+int mul(int a, int b);
