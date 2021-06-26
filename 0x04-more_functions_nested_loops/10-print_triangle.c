@@ -20,7 +20,7 @@ extr = (size - b) - 1;
 if (cua < extr)
 _putchar(' ');
 else
-_putchar(40);
+_putchar(35);
 }
 _putchar('\n');
 }
