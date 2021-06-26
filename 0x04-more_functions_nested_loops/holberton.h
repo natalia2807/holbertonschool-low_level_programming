@@ -27,3 +27,4 @@ void print_line(int n);
  int main(void);
  void print_triangle(int size);
 int main(void);
+void print_number(int n);
