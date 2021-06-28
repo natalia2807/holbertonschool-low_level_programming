@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-*_rev - print a string in stdout in reverse
+*print_rev - print a string in stdout in reverse
 *@s: variable string
 *
 *Return: void
