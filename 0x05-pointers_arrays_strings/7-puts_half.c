@@ -1,15 +1,24 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * puts_half - prints the second half of a string
+ * @str: string to print
  *
- * Return: Always 0.
+ * Return: void
  */
-
 void puts_half(char *str)
 {
+	int m, l = 0;
 
-    str = "56789";
-    _putchar(*str);
-    _putchar('\n');
+	while (*(str + l))
+		l++;
+	m = l / 2;
+	if (l % 2)
+		m += 1;
+	while (m < l)
+	{
+		_putchar(*(str + m));
+		m++;
+	}
+	_putchar('\n');
 }
