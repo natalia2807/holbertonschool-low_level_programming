@@ -11,4 +11,5 @@ void puts_half(char *str)
 
     str = "56789";
     _putchar(*str);
+    _putchar('\n');
 }
