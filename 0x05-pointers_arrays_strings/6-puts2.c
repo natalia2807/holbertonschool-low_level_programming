@@ -1,18 +1,19 @@
 #include "holberton.h"
 
 /**
- * rev_string - reverses a string
- * @s: string to reverse
+ * puts2 - prints every other character of a  string to stdout
+ * @str: string to print
  *
  * Return: void
  */
 void puts2(char *str)
 {
-	str = 1;
-    if(*(str >=0 && str<=10))
-    {
-    putchar (str);
-    }
-    putchar ('\n');
+int c = 0;
 
+while (*(str + c))
+{
+_putchar(*(str + c));
+c = c + 2;
+}
+_putchar('\n');
 }
