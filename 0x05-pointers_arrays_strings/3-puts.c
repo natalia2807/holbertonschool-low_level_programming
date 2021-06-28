@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
-*_strlen - returns the length of a string
+*_puts - prints a string
 *@str: string to find length of
 *
-*Return: length of s
+*Return: void
 */
 void _puts(char *str)
 {
