@@ -8,7 +8,6 @@
 
 void puts_half(char *str)
 {
- char *str;
 
     str = "56789";
     printf(str);
