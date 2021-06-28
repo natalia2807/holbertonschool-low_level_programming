@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
-*_rev - print a string
-*@s: string to find length of
+*_rev - print a string in stdout in reverse
+*@s: variable string
 *
 *Return: void
 */
