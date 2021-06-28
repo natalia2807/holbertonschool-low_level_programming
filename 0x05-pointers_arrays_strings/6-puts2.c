@@ -16,5 +16,5 @@ _putchar(*(str + c));
 c = c + 2;
 }
 _putchar('\n');
- return (0);
+
 }
