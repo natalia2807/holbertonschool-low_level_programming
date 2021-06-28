@@ -8,7 +8,7 @@
  */
 void puts2(char *str)
 {
-	int str = 1;
+	str = 1;
     if(*(str >=0 && str<=10))
     {
     putchar (str);
