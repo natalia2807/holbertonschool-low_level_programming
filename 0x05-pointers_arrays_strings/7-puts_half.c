@@ -9,7 +9,7 @@
 void puts_half(char *str)
 {
 
-    str = "56789";
-    _putchar(str);
+    *str = "56789";
+    _putchar(*str);
     return (0);
 }
